@@ -1,0 +1,9 @@
+*.idea
+# /src/themes/*
+# /src/plugins/*
+
+/src/themes/understrap-child/node_modules
+
+# To exclude some themes or plugins use the example bellow
+!/src/themes/theme-name
+!/src/plugins/plugin-name
