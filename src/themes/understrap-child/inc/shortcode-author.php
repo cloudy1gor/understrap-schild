@@ -42,8 +42,12 @@ function author_content_shortcode($atts) {
             if (!empty($thumbnail)) {
                 echo $thumbnail;
             }
+            ?>
 
-            echo apply_filters('the_content', $post->post_content);
+            <h4><?php echo apply_filters('the_content', $post->post_title); ?></h4>
+
+            <?php
+            echo apply_filters('the_content', $post->post_excerpt);
             ?>
 
             <div class="author__shortcode-link">

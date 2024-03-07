@@ -52,7 +52,7 @@
         $copyright = get_post_meta( 6, '_wporg_meta_key_copyright', true );
 
         if ( ! empty( $copyright ) ) {
-            echo '<div class="footer__bottom align-self-center">&copy; ' . get_the_date( 'Y' ) . ' ' . bloginfo( 'name' ) . ' ' . esc_html( $copyright ) . '</div>';
+            echo '<div class="footer__bottom align-self-center">&copy; ' . get_the_date( 'Y' ) . ' ' . esc_html( $site_name ) . ' ' . esc_html( $copyright ) . '</div>';
         } else {
             echo '<div class="footer__bottom align-self-center">&copy; ' . get_the_date( 'Y' ) . ' ' . bloginfo( 'name' ) . ' All rights reserved.</div>';
         }
