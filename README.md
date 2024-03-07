@@ -1,7 +1,7 @@
 ## Understrap-child theme template
 The project is available at **https://savelyev.000webhostapp.com/**
 
-###Project information
+### Project information
 1.The site name and copyright are edited on the Settings page. 
 2.Posts in slider have custom post type (carousel).
 
