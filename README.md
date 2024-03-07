@@ -3,9 +3,11 @@ The project is available at **https://savelyev.000webhostapp.com/**
 
 ### Project information
 1.The site name and copyright are edited on the Settings page. 
-2.Posts in slider have custom post type (carousel).
 
 ![ScreenShot](/adm.png)
+
+2.Posts in slider have custom post type (carousel).
+
 ![ScreenShot](/cpt.png)
 
 3. Sidebar displays custom shortcodes to display a post with author information and a shortcode to display a list of categories with post count.
